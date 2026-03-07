@@ -10,11 +10,11 @@ of the test text, although I did often use the tests to get my answers working.
 
 ## The November Quests
 
-2024 - The Kingdom of Algorithmia [The Quests](https://everybody.codes/event/2024/quests)   [My R Solutions](2024/R)
-2025 - The Song of Ducks and Dragons [The Quests](https://everybody.codes/event/2025/quests) [My R Solutions](2025/R)
+* 2024 - The Kingdom of Algorithmia [The Quests](https://everybody.codes/event/2024/quests)   [My R Solutions](2024/R)
+* 2025 - The Song of Ducks and Dragons [The Quests](https://everybody.codes/event/2025/quests) [My R Solutions](2025/R)
 
 ## The Stories
 
-1 - Echoes of Enigmatus [The Quests](https://everybody.codes/story/1/quests) [My R Solutions](Story_01/R)
-2 - The Entertainment Hub [The Quests](https://everybody.codes/story/2/quests) My R Solutions](Story_02/R)
-3 - Melody Made of Code [The Quests](https://everybody.codes/story/3/quests) [My R Solutions](Story_03/R)
+* 1 - Echoes of Enigmatus [The Quests](https://everybody.codes/story/1/quests) [My R Solutions](Story_01/R)
+* 2 - The Entertainment Hub [The Quests](https://everybody.codes/story/2/quests) My R Solutions](Story_02/R)
+* 3 - Melody Made of Code [The Quests](https://everybody.codes/story/3/quests) [My R Solutions](Story_03/R)
