@@ -1,0 +1,170 @@
+/**********/
+/* Part 1 */
+/**********/
+
+HEADS AA
+
+START ** GO ** SR
+GO AA GO @* RR
+GO BB GO @* RR
+GO BA GO _* RR
+GO AB GO _* RR
+GO A_ STOP __ SS
+GO B_ STOP __ SS
+
+/**********/
+/* Part 2 */
+/**********/
+
+HEADS AAAAAAAAAA
+
+START ********** I1 ********** SRDDDDDDDD
+I1 ********** I2 **********    SSSRDDDDDD
+I2 ********** I3 **********    SSSSSRDDDD
+I3 ********** I4 **********    SSSSSSSRDD
+I4 ********** GO1 **********    SSSSSSSSSR
+
+GO1 AA******** GO1 @********* RRSSSSSSSS
+GO1 BB******** GO1 @********* RRSSSSSSSS
+GO1 AB******** GO1 _********* RRSSSSSSSS
+GO1 BA******** GO1 _********* RRSSSSSSSS
+GO1 *_******** GO2 __******** RRSSSSSSSS
+
+GO2 **AA****** GO2 **@******* SSRRSSSSSS
+GO2 **BB****** GO2 **@******* SSRRSSSSSS
+GO2 **AB****** GO2 **_******* SSRRSSSSSS
+GO2 **BA****** GO2 **_******* SSRRSSSSSS
+GO2 ***_****** GO3 **__****** SSRRSSSSSS
+
+GO3 ****AA**** GO3 ****@***** SSSSRRSSSS
+GO3 ****BB**** GO3 ****@***** SSSSRRSSSS
+GO3 ****AB**** GO3 ****_***** SSSSRRSSSS
+GO3 ****BA**** GO3 ****_***** SSSSRRSSSS
+GO3 *****_**** GO4 ****__**** SSSSRRSSSS
+
+GO4 ******AA** GO4 ******@*** SSSSSSRRSS
+GO4 ******BB** GO4 ******@*** SSSSSSRRSS
+GO4 ******AB** GO4 ******_*** SSSSSSRRSS
+GO4 ******BA** GO4 ******_*** SSSSSSRRSS
+GO4 *******_** GO5 ******__** SSSSSSRRSS
+
+GO5 ********AA GO5 ********@* SSSSSSSSRR
+GO5 ********BB GO5 ********@* SSSSSSSSRR
+GO5 ********AB GO5 ********_* SSSSSSSSRR
+GO5 ********BA GO5 ********_* SSSSSSSSRR
+GO5 *********_ STOP ********__ SSSSSSSSRR
+
+/**********/
+/* Part 3 */
+/**********/
+
+HEADS ABABABABAB
+
+START ********** INIT1 ********** SSDDDDDDDD
+INIT1 ********** INIT2 ********** SSSSDDDDDD
+INIT2 ********** INIT3 ********** SSSSSSDDDD
+INIT3 ********** VERT ********** SSSSSSSSDD
+
+
+VERT *A*A*A*A*A   V4 ********** SUSSSSSSSD
+VERT *A*A*A*A*B   V3 ********** SUSSSSSSSD
+VERT *A*A*A*B*A   V2 ********** SUSSSSSSSD
+VERT *A*A*A*B*B   V3 ********** SUSSSSSSSD
+VERT *A*A*B*A*A   V2 ********** SUSSSSSSSD
+VERT *A*A*B*A*B   V1 ********** SUSSSSSSSD
+VERT *A*A*B*B*A   V2 ********** SUSSSSSSSD
+VERT *A*A*B*B*B   V3 ********** SUSSSSSSSD
+VERT *A*B*A*A*A   V2 ********** SUSSSSSSSD
+VERT *A*B*A*A*B   V1 ********** SUSSSSSSSD
+VERT *A*B*A*B*A   VERT ********** SLSLSLSLSL
+VERT *A*B*A*B*B   V1 ********** SUSSSSSSSD
+VERT *A*B*B*A*A   V2 ********** SUSSSSSSSD
+VERT *A*B*B*A*B   V1 ********** SUSSSSSSSD
+VERT *A*B*B*B*A   V2 ********** SUSSSSSSSD
+VERT *A*B*B*B*B   V3 ********** SUSSSSSSSD
+VERT *B*A*A*A*A   V3 ********** SUSSSSSSSD
+VERT *B*A*A*A*B   V2 ********** SUSSSSSSSD
+VERT *B*A*A*B*A   V1 ********** SUSSSSSSSD
+VERT *B*A*A*B*B   V2 ********** SUSSSSSSSD
+VERT *B*A*B*A*A   V1 ********** SUSSSSSSSD
+VERT *B*A*B*A*B   VERT ********** SLSLSLSLSL
+VERT *B*A*B*B*A   V1 ********** SUSSSSSSSD
+VERT *B*A*B*B*B   V2 ********** SUSSSSSSSD
+VERT *B*B*A*A*A   V3 ********** SUSSSSSSSD
+VERT *B*B*A*A*B   V2 ********** SUSSSSSSSD
+VERT *B*B*A*B*A   V1 ********** SUSSSSSSSD
+VERT *B*B*A*B*B   V2 ********** SUSSSSSSSD
+VERT *B*B*B*A*A   V3 ********** SUSSSSSSSD
+VERT *B*B*B*A*B   V2 ********** SUSSSSSSSD
+VERT *B*B*B*B*A   V3 ********** SUSSSSSSSD
+VERT *B*B*B*B*B   V4 ********** SUSSSSSSSD
+VERT *A*A*A*A*_   V3 ********** SUSSSSSSSD
+VERT *A*A*A*B*_   V2 ********** SUSSSSSSSD
+VERT *A*A*B*A*_   V1 ********** SUSSSSSSSD
+VERT *A*A*B*B*_   V2 ********** SUSSSSSSSD
+VERT *A*B*A*A*_   V1 ********** SUSSSSSSSD
+VERT *A*B*A*B*_   VERT ********** SLSLSLSLSL
+VERT *A*B*B*A*_   V1 ********** SUSSSSSSSD
+VERT *A*B*B*B*_   V2 ********** SUSSSSSSSD
+VERT *B*A*A*A*_   V2 ********** SUSSSSSSSD
+VERT *B*A*A*B*_   V1 ********** SUSSSSSSSD
+VERT *B*A*B*A*_   VERT ********** SLSLSLSLSL
+VERT *B*A*B*B*_   V1 ********** SUSSSSSSSD
+VERT *B*B*A*A*_   V2 ********** SUSSSSSSSD
+VERT *B*B*A*B*_   V1 ********** SUSSSSSSSD
+VERT *B*B*B*A*_   V2 ********** SUSSSSSSSD
+VERT *B*B*B*B*_   V3 ********** SUSSSSSSSD
+VERT *A*A*A*_*_   V2 ********** SUSSSSSSSD
+VERT *A*A*B*_*_   V1 ********** SUSSSSSSSD
+VERT *A*B*A*_*_   VERT ********** SLSLSLSLSL
+VERT *A*B*B*_*_   V1 ********** SUSSSSSSSD
+VERT *B*A*A*_*_   V1 ********** SUSSSSSSSD
+VERT *B*A*B*_*_   VERT ********** SLSLSLSLSL
+VERT *B*B*A*_*_   V1 ********** SUSSSSSSSD
+VERT *B*B*B*_*_   V2 ********** SUSSSSSSSD
+VERT *A*A*_*_*_   V1 ********** SUSSSSSSSD
+VERT *A*B*_*_*_   VERT ********** SLSLSLSLSL
+VERT *B*A*_*_*_   VERT ********** SLSLSLSLSL
+VERT *B*B*_*_*_   V1 ********** SUSSSSSSSD
+VERT *A*_*_*_*_   VERT ********** SLSLSLSLSL
+VERT *B*_*_*_*_   VERT ********** SLSLSLSLSL
+VERT *_*_*_*_*_   R1 ********** SRSRSRSRSR
+
+V1 ********** VCON *@******** SDSSSSSSSU
+V2 ********** VCON *@*******@ SDSSSSSSSU
+V3 ********** V3B ********** SUSSSSSSSD
+V3B ********** V2 *@******** SDSSSSSSSU
+V4 ********** V4B ********** SUSSSSSSSD
+V4B ********** V2 *@*******@ SDSSSSSSSU
+VCON ********** VERT ********** SLSLSLSLSL
+R1 ********** GO1 ********** SRSRSRSRSR
+
+GO1 AA******** GO1 @********* RRSSSSSSSS
+GO1 BB******** GO1 @********* RRSSSSSSSS
+GO1 AB******** GO1 _********* RRSSSSSSSS
+GO1 BA******** GO1 _********* RRSSSSSSSS
+GO1 *_******** GO2 __******** RRSSSSSSSS
+
+GO2 **AA****** GO2 **@******* SSRRSSSSSS
+GO2 **BB****** GO2 **@******* SSRRSSSSSS
+GO2 **AB****** GO2 **_******* SSRRSSSSSS
+GO2 **BA****** GO2 **_******* SSRRSSSSSS
+GO2 ***_****** GO3 **__****** SSRRSSSSSS
+
+GO3 ****AA**** GO3 ****@***** SSSSRRSSSS
+GO3 ****BB**** GO3 ****@***** SSSSRRSSSS
+GO3 ****AB**** GO3 ****_***** SSSSRRSSSS
+GO3 ****BA**** GO3 ****_***** SSSSRRSSSS
+GO3 *****_**** GO4 ****__**** SSSSRRSSSS
+
+GO4 ******AA** GO4 ******@*** SSSSSSRRSS
+GO4 ******BB** GO4 ******@*** SSSSSSRRSS
+GO4 ******AB** GO4 ******_*** SSSSSSRRSS
+GO4 ******BA** GO4 ******_*** SSSSSSRRSS
+GO4 *******_** GO5 ******__** SSSSSSRRSS
+
+GO5 ********AA GO5 ********@* SSSSSSSSRR
+GO5 ********BB GO5 ********@* SSSSSSSSRR
+GO5 ********AB GO5 ********_* SSSSSSSSRR
+GO5 ********BA GO5 ********_* SSSSSSSSRR
+GO5 *********_ STOP ********__ SSSSSSSSRR

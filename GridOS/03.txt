@@ -1,0 +1,74 @@
+/**********/
+/* Part 1 */
+/**********/
+
+HEADS AA
+
+START ## START ** RR
+START == DIG1 ~~ RR
+START __ STOP ** SS
+DIG1 ## START ** RR
+DIG1 == DIG2 ~* RD
+DIG2 =_ DIG2 ~~ RR
+DIG2 #_ DIG3 ** SR
+DIG3 #_ START ** SU
+
+/**********/
+/* Part 2 */
+/**********/
+
+HEADS AAA
+
+START ### START *** RRR
+START === DIG1 ~~~ RRR
+START ___ RETURN1 *** LLL
+DIG1 ### START *** RRR
+DIG1 === DIG2 ~** RDR
+DIG2 =_= DIG2 ~~~ RRR
+DIG2 #_# DIG3 *** SRS
+DIG3 #_# START *** SUS
+
+RETURN1 *** RETURN2 *** SDD
+RETURN2 *** GOBACK *** SSD
+
+GOBACK _** STOP *** SSS
+GOBACK #__ GOBACK *** LLL
+GOBACK ~__ GOBACK *** LLL
+GOBACK ~~_ DIGBACK *** LLL
+
+DIGBACK ~~_ DIGBACK ~~~ LLL
+DIGBACK ~__ UNDIG *** SSR
+UNDIG ~_* UNDIG2 ~__ SSL
+UNDIG2 *** GOBACK *** LLL
+
+
+/**********/
+/* Part 3 */
+/**********/
+
+HEADS AA
+
+START __ STOP ** SS
+START ## START ** RR
+START == START ** SR
+START =# CHECK =# RS
+CHECK =# PASS =# LS
+CHECK ## FAIL ## LS
+FAIL =# START ~# RS
+
+PASS =# DIG1 =* DL
+
+DIG1 ** DIG2 ** SD
+DIG2 __ DIG3 <> RL
+DIG3 __ DIG3 ~~ RL
+DIG3 ~~ DIG3 ~~ LR
+DIG3 <> DIG4 __ RL
+DIG3 >< RISE __ UU
+DIG4 ~~ DIG2 ~~ DD
+RISE ~~ RISE ~~ UU
+RISE == LEFT == LS
+LEFT == LEFT == LL
+LEFT =# LEFT =# LS
+LEFT ## RIGHT ## RR
+RIGHT == RIGHT ~~ RR
+RIGHT ## START ## RR

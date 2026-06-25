@@ -1,0 +1,62 @@
+/**********/
+/* Part 1 */
+/**********/
+
+HEADS AAA
+
+START *** GO *** USD
+GO ___ STOP *** SSS
+GO _A_ GO *_* RRR
+GO _B_ GO *P* RRR
+GO _C_ GO PPP RRR
+
+/**********/
+/* Part 2 */
+/**********/
+
+HEADS AAAAA
+
+START ***** INIT1 ***** UUSDD
+INIT1 ***** GO ***** USSSD
+GO _____ STOP ***** SSSSS
+GO __A__ GO **_** RRRRR
+GO __B__ GO **P** RRRRR
+GO __C__ GO *PPP* RRRRR
+GO __D__ GO PPPPP RRRRR
+
+
+/**********/
+/* Part 3 */
+/**********/
+
+HEADS AAAAAAAAAA
+
+START ********** INIT1 ********** UUUUSDDDDD
+INIT1 ********** INIT2 ********** UUUSSSDDDD
+INIT2 ********** INIT3 ********** UUSSSSSDDD
+INIT3 ********** INIT4 ********** USSSSSSSDD
+INIT4 ********** GO ********** SSSSSSSSSD
+
+GO __________ STOP ********** SSSSSSSSSS
+GO ____A_____ GO __________ RRRRRRRRRR
+GO ____B_____ GO P_________ RRRRRRRRRR
+GO ____C_____ GO PPP_______  RRRRRRRRRR
+GO ____D_____ GO PPPPP_____ RRRRRRRRRR
+GO ____AA____ GO PP________ RRRRRRRRRR
+GO ____BA____ GO PPP_______ RRRRRRRRRR
+GO ____CA____ GO PPPPP_____ RRRRRRRRRR
+GO ____DA____ GO PPPPPPP___ RRRRRRRRRR
+GO ____AB____ GO PPP_______ RRRRRRRRRR
+GO ____BB____ GO PPPP______ RRRRRRRRRR
+GO ____CB____ GO PPPPPP____ RRRRRRRRRR
+GO ____DB____ GO PPPPPPPP__ RRRRRRRRRR
+GO ____AC____ GO PPPPP_____ RRRRRRRRRR
+GO ____BC____ GO PPPPPP____ RRRRRRRRRR
+GO ____CC____ GO PPPPPPPP__ RRRRRRRRRR
+GO ____DC____ GO PPPPPPPPPP RRRRRRRRRR
+GO ____AD____ GO PPPPPPP___ RRRRRRRRRR
+GO ____BD____ GO PPPPPPPP__ RRRRRRRRRR
+GO ____CD____ GO PPPPPPPPPP RRRRRRRRRR
+GO ____DD____ P2 PPPPPPPPPP USSSSSSSSD
+P2 ********** P3 P********P DSSSSSSSSU
+P3 ********** GO ********** RRRRRRRRRR

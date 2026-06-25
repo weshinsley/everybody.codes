@@ -1,0 +1,89 @@
+/**********/
+/* Part 1 */
+/**********/
+
+HEADS AAA
+
+START *** INIT *** SRR
+INIT *** GO *** SSR
+
+GO ___ STOP *** SSS
+GO #|_ GO *** DDD
+GO #=| GO #|_ DDD
+GO #== SEARCH **O SSR
+SEARCH #== SEARCH *** SSR
+SEARCH #=| HIT **_ SSL
+HIT #== LEFT **| SSL
+HIT #=O GO #=| DDD
+LEFT #== LEFT *** SSL
+LEFT #=O GO **= DDD
+
+/**********/
+/* Part 2 */
+/**********/
+
+HEADS A
+
+START # DOWN * R
+DOWN = DOWN * D
+DOWN _ BOTTOM * R
+BOTTOM * UP * U
+UP = UP * U
+UP _ TOP * R
+TOP * DOWN * D
+
+UP | GO_LOW | D
+DOWN | GO_LOW | D
+GO_LOW | GO_LOW | D
+GO_LOW = GO_LOW = D
+GO_LOW _ GO_UP _ U
+
+GO_UP = FILL | R
+FILL = FILL _ R
+FILL | LEFT _ L
+LEFT _ LEFT _ L
+LEFT | GO_UP | U
+GO_UP | GO_UP | U
+GO_UP _ STOP _ S
+
+/**********/
+/* Part 3 */
+/**********/
+
+HEADS ABAB
+
+START #### INIT **** SLUD
+INIT **** DOWN **@@ RSRR
+DOWN =*** DOWN **@@ DSSS
+DOWN @*** BOTTOM **@@ RSRR
+BOTTOM **** UP **@@ USSS
+UP =*** UP **@@ USSS
+UP @*** TOP **@@ RSRR
+TOP **** DOWN **@@ DSSS
+
+UP |2** GO_LOW |_@@ DSSS
+DOWN |2** GO_LOW |_@@ DSSS
+
+UP |_** UP |2@@ USSS
+UP _2** UP _2@@ USSS
+DOWN |_** DOWN |2@@ DSSS
+DOWN _2** DOWN _2@@ DSSS
+
+GO_LOW |*** GO_LOW |*@@ DSSS
+GO_LOW =*** GO_LOW =*@@ DSSS
+GO_LOW _*** GO_LOW _*@@ DSSS
+GO_LOW @*** GO_UP @*@@ USSS
+
+GO_UP =*** FILL |*@@ RSRR
+FILL =*** FILL _*@@ RSRR
+FILL |*** LEFT _*@@ LSLL
+LEFT _*** LEFT _*@@ LSLL
+LEFT |*** GO_UP |*@@ USSS
+GO_UP |*** GO_UP |*@@ USSS
+GO_UP _*** GO_UP _*@@ USSS
+GO_UP @*** END1 @*@@ SSSS
+
+END1 **@@ END1 **@@ SSRR
+END1 **__ END2 **__ SSLL
+END2 **@@ END2 **__ SSLL
+END2 **__ STOP **__ SSSS
