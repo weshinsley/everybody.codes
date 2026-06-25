@@ -18,3 +18,7 @@ of the test text, although I did often use the tests to get my answers working.
 * [1 - Echoes of Enigmatus](https://everybody.codes/story/1/quests)   in [R](Story_01/R)
 * [2 - The Entertainment Hub](https://everybody.codes/story/2/quests) in [R](Story_02/R)
 * [3 - Melody Made of Code](https://everybody.codes/story/3/quests) in [R](Story_03/R)
+
+## GridOS
+
+* [GridOS Tournament No. 1](https://everybody.codes/gridos/1/quests) in [text](GridOS/01)
