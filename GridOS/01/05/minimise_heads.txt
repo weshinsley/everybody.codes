@@ -1,0 +1,135 @@
+/*********************************/
+/*             Part 1            */
+/*********************************/
+
+HEADS A
+
+START . RL + R
+
+RL + RL * R
+RL . RLC1 + D
+RLC1 @ RL * U
+RLC1 . RLC2 + D
+RLC2 . RR + R 
+
+RR + RR * R
+RR . RRC1 + U
+RRC1 @ RR * D
+RRC1 . RRC2 + U
+RRC2 . RL + R
+
+RR _ STOP * S
+
+/*********************************/
+/*             Part 2            */
+/*********************************/
+
+HEADS A
+
+START . RL + R
+
+RL + RL * R
+RL . RLC1 + D
+RLC1 @ RL * U
+RLC1 . RLC2 + D
+RLC2 . RR + R 
+
+RR + RR * R
+RR . RRC1 + U
+RRC1 @ RR * D
+RRC1 . RRC2 + U
+RRC2 . RL + R
+
+RR _ DRT * L
+DRT + DRT * L
+DRT . DRT2 + L
+DRT2 . DR + D
+DRT2 + DR * D
+
+DR . DRC + R
+DRC @ DR * L
+DRC . DLT + R
+DR + DR * D
+DLT . DL + D
+
+DL . DLC + L
+DL + DL * D
+DLC @ DL * R
+DLC . DLC2 + L
+DLC2 . DR + D
+
+DR _ STOP _ S
+
+/*********************************/
+/*             Part 3            */
+/*********************************/
+
+HEADS A
+
+START . RL + R
+
+RL + RL * R
+RL . RLC1 + D
+RLC1 @ RL * U
+RLC1 . RLC2 + D
+RLC2 . RR + R 
+
+RR + RR * R
+RR . RRC1 + U
+RRC1 @ RR * D
+RRC1 . RRC2 + U
+RRC2 . RL + R
+
+RR _ DRT * L
+DRT + DRT * L
+DRT . DRT2 + L
+DRT2 . DR + D
+DRT2 + DR * D
+
+DR . DRC + R
+DRC @ DR * L
+DRC . DLT + R
+DR + DR * D
+DLT . DL + D
+
+DL . DLC + L
+DL + DL * D
+DLC @ DL * R
+DLC . DLC2 + L
+DLC2 . DR + D
+
+DR _ LRT * U
+LRT + LL . S
+
+LL . LLC + U
+LLC @ LL * D
+LL + LL * L
+LLC . LLC2 + U
+LLC2 + LR * L
+LLC2 . LR + L
+
+LR . LRC + D
+LRC @ LR * U
+LR + LR * L
+LRC . LRC2 + D
+LRC2 . LL + L
+
+LR _ LLT * R
+LLT + UL . S
+
+UL . ULC + R
+ULC @ UL * L
+UL + UL * U
+ULC . ULC2 + R
+ULC2 . UR + U
+ULC2 + UR * U
+
+UR . URC + L
+UR + URC + L
+URU + UR * U
+URC @ URU * R
+URC . URC2 + L
+URC2 . UL + U
+
+UL _ STOP * S
+

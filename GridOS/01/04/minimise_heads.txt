@@ -1,0 +1,100 @@
+/*********************************/
+/*             Part 1            */
+/*********************************/
+
+HEADS A
+
+START _ STOP * S
+START # ZERO * R
+ZERO | LEFT * L
+ZERO = RIGHT * R
+RIGHT = RIGHT * R
+RIGHT | NAIL _ L
+NAIL = LEFT | L
+LEFT = LEFT * L
+LEFT # START * D
+
+/*********************************/
+/*             Part 2            */
+/*********************************/
+
+HEADS A
+
+START # DOWN * R
+DOWN = DOWN * D
+DOWN _ BOTTOM * R
+BOTTOM * UP * U
+UP = UP * U
+UP _ TOP * R
+TOP * DOWN * D
+
+UP | GO_LOW | D
+DOWN | GO_LOW | D
+GO_LOW | GO_LOW | D
+GO_LOW = GO_LOW = D
+GO_LOW _ GO_UP _ U
+
+GO_UP = FILL | R
+FILL = FILL _ R
+FILL | LEFT _ L
+LEFT _ LEFT _ L
+LEFT | GO_UP | U
+GO_UP | GO_UP | U
+GO_UP _ STOP _ S
+
+/*********************************/
+/*             Part 3            */
+/*********************************/
+
+HEADS A
+
+START # D1 * R
+D1 = D1 * D
+D1 | D2 * D
+D1 _ D1T * R
+D1T _ U1 * U
+
+U1 = U1 * U
+U1 | U2 * U
+U1 _ U1T * R
+U1T _ D1 * D
+
+D2 = D2 * D
+D2 _ D2D * D
+D2D | D2 * S
+D2D = D2 * S
+D2D _ D2D2 * R
+D2D2 _ D2D2 * U
+D2D2 | U2 * S
+D2D2 = U2 * S
+
+U2 = U2 * U
+U2 _ U2D * U
+U2D | U2 * S
+U2D = U2 * S
+U2D _ U2U2 * R
+U2U2 _ U2U2 * D
+U2U2 | D2 * S
+U2U2 = D2 * S
+
+D2 | U3 * U
+U2 | U3 * U
+U3 = U3 * U
+U3 _ U32 * U
+U32 | U3 * U
+U32 = U3 * U
+U32 _ U324 * D
+U324 _ U324 * D
+U324 = NAIL * S
+U324 | NAIL * S
+
+NAIL | NAIL * D
+NAIL = RIGHT | R
+RIGHT = RIGHT _ R
+RIGHT | LEFT _ L
+LEFT _ LEFT * L
+LEFT | NAIL * D
+NAIL _ NAIL2 * D
+NAIL2 _ STOP * S
+NAIL2 = NAIL * S
+NAIL2 | NAIL * S

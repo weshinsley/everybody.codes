@@ -1,0 +1,98 @@
+/*********************************/
+/*             Part 1            */
+/*********************************/
+
+HEADS AA
+
+START ## START ** SL
+
+START #_ START ** RS 
+START =_ START ~1 RS
+START #1 START *_ RS
+START __ STOP ** SS
+
+START =1 START R2 DS
+START _2 START ~* US
+START R2 START ~* RS
+START =2 START R* DS
+START #2 START *3 LS
+START ~3 START *4 DS
+START ~4 START _4 RS
+START _4 START __ US
+
+
+/*********************************/
+/*             Part 2            */
+/*********************************/
+
+HEADS AA
+START ## START ** LR
+START _= START ** SD 
+START __ START 1* SR
+START 1_ START 2* SU
+START 2= START ** SU
+START 2_ START 3* SR
+START 3_ START _* SD
+
+START 2| START 4* SU
+START _| START 4* SU
+START 4= START ** SU
+START 4_ START 5* SD
+START 5= START 6| SR
+START 6= START *_ SR
+START 6| START 7_ SL
+START 7_ START ** SL
+START 7| START 5* SD
+START 5| START ** SD
+START 5_ STOP __ SS
+
+
+/*********************************/
+/*             Part 3            */
+/*********************************/
+
+HEADS AAAA
+
+START #### START I*** USRR
+START *I** START *#** SSSR
+START _#=# START **~* SRRR
+START _#~# START **** SRRR
+START _~#= START ***~ SRRR
+START _~~# START **** SRRR
+START _#__ STOP **** SSSS
+START _~#_ STOP **** SSSS
+START _~## START **** SRRR
+START _##_ STOP **** SSSS
+START _### START **** SRRR
+START _#== START **~~ SRRR
+START _##= START _**~ SRRR
+START _#~= START _**~ SRRR
+START _~~= START 1**~ SSDS
+START 1~_~ START **~* SRRR
+START 1~_= START **~~ SRRR
+START 1~_# START 2*** SDDD
+START 2~** START 3*** SLLL
+START 3~__ START 4*** SLLL
+START 3___ START U*** SSUS
+START 4~_~ START 4*~* SLLL
+START 4__~ START 5*** SDDD
+START 5___ START F*** SSUS
+START F___ START U*** SUUU
+START F_~_ START U*** SSSS
+START 5__~ START 5*** SRRR
+START 5~_~ START 5*~* SRRR
+START 5~__ START 6*** SDDD
+START 6~__ START 6*** SLLL
+START 6~_~ START 6*~* SLLL
+START 6__~ START 4*** SSSS
+START 6___ START F*** SSUS
+
+START U_~~ START **** SUUU
+START U~~_ START **** SUUU
+START U~~~ START **** SUUU
+START U_~_ START **** SUUU
+START U___ START N*** SDDD
+START N~~~ START N*** SRRR
+START N~#= START _*** SRRR
+START N~~# START _*** SRRR
+START N~## START _*** SRRR

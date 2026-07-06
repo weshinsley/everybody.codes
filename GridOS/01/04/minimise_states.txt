@@ -1,0 +1,92 @@
+/*********************************/
+/*             Part 1            */
+/*********************************/
+
+HEADS AA
+
+START ## START ** SU
+START #_ START *1 RS
+START |1 START *1 DS
+START __ STOP *_ SS
+START _1 STOP *_ SS
+
+START =1 START *R RS
+START =R START ** RS
+START |R START _H LS
+START =H START |L LS
+START =L START ** LS
+START #L START *_ DS
+
+/*********************************/
+/*             Part 2            */
+/*********************************/
+
+HEADS AAAA
+
+START #### START *I** USDD
+START ____ STOP **** SSSS
+START _I__ START *#** SSSD
+START _#__ START **** SRRR
+START _=__ START 1~** SRRR
+START 1=__ START 2~~_ SRRR
+START 1#__ START _*__ SSSS
+START 2=__ START 2~~~ SRRR
+START 2#__ START E*** SSLL
+START E#~~ START F*__ SSSL
+START E#~_ START _*_* SSRR
+START F#_~ START G**_ SSSR
+START F#__ START G*** SSSR
+START G#__ START _*** SSRR
+
+/*********************************/
+/*             Part 3            */
+/*********************************/
+
+HEADS AAA
+
+START ### START *** LRU
+START _=* START *** SDS 
+START __* START 1** SRS
+START _X1 START F_* SRS
+START F_1 START GX* SLS
+START G_1 START _** SDS
+START 1_* START 2** SUS
+START 2=* START *** SUS
+START 2_* START 3** SRS
+START 3_* START _** SDS
+
+START _|_ START X|1 SRS
+START X** START YX* SLS
+START Y** START _** SDS
+
+START 2|_ START P|1 SRS
+START P** START QX* SLS
+START Q** START 2** SUS 
+
+START 2|1 START 4** SUS
+START 2X1 START R_* SRS
+START R_1 START SX* SLS
+START S_1 START 2** SUS
+
+START _|1 START 4** SUS
+
+START 4=1 START *** SUS
+START 4X1 START *** SUS
+START 4_1 START 5** SRS
+START 5X1 START 6_* SLS
+START 6_1 START 4X* SUS
+START 5_1 START 7** SLS
+START 7** START 8** SDS
+
+START 8|1 START *** SDS
+START 8X1 START *_* SDS
+START 8=1 START >|* SRS
+START >!1 START *_* SRS
+START >_1 START <** SLS
+START <_1 START <** SLS
+START <!1 START 8** SDS
+
+START 8_1 START 9** SRS
+START 9X1 START Z_* SLS
+START Z_1 START 8** SDS
+START 9_1 STOP ___ SSS

@@ -1,0 +1,83 @@
+/*********************************/
+/*             Part 1            */
+/*********************************/
+
+HEADS A
+
+START * GO * S
+
+GO A GO _ R
+GO B GO P R
+
+GO C C1 P U
+C1 * C2 P U
+C2 * C3 P D
+C3 * C4 * D
+C4 * GO * R
+GO _ STOP _ S
+
+// Minimise states
+
+HEADS AAAB
+
+START ***A START **** USDD
+START ***B START **** USDD
+START ***C START **** USDD
+START ____ STOP **** SSSR
+START _A__ START *_** RRRR
+START _B__ START *P** RRRR
+START _C__ START PPP* RRRR
+
+
+/*********************************/
+/*             Part 2            */
+/*********************************/
+
+HEADS A
+
+START _ STOP _ S
+START A START _ R
+START B START P R
+START C P2 Z U
+START D P4 Z U
+P4 * P3 * U
+P3 * P2 * U
+P2 * P1 * U
+P1 * DD P D
+DD _ DD P D
+DD Z START P R
+
+
+/*********************************/
+/*             Part 3            */
+/*********************************/
+
+HEADS A
+
+START A LOW  _ D
+START B LOW  P D
+START C UP2  Q U
+START D UP4  Q U
+START _ STOP * S
+UP4  _  UP3  P U
+UP3  _  UP2  P U
+UP2  _  UP1  P U
+UP1  _  DOWN P D
+DOWN P  DOWN * D
+DOWN Q  LOW P D
+
+LOW A DOWN1 Q D
+LOW B DOWN2 Q D
+LOW C DOWN4 Q D
+LOW D DOWN6 Q D
+LOW _ RIGHT * U
+DOWN6 _ DOWN5 P D
+DOWN5 _ DOWN4 P D
+DOWN4 _ DOWN3 P D
+DOWN3 _ DOWN2 P D
+DOWN2 _ DOWN1 P D
+DOWN1 _ UP P U
+UP P UP * U
+UP Q RIGHT P U
+RIGHT * START * R
+

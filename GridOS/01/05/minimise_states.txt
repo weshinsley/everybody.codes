@@ -1,0 +1,105 @@
+/*********************************/
+/*             Part 1            */
+/*********************************/
+
+HEADS AAA
+
+START ... START *** SDU
+START .._ START +*L RRS
+START .@L START +** RRS
+START ..L START +*M DSS
+START ..M START +*M DSS
+START .+M START +*R RRS
+START .@R START +** RRS
+START ..R START +*U USS
+START ..U START +*U USS
+START .+U START +*L RRS
+START __R STOP ___ SSS
+
+
+/*********************************/
+/*             Part 2            */
+/*********************************/
+
+HEADS AAA
+
+START ... START *** SDU
+START .._ START +*L RRS
+START .@L START +** RRS
+START ..L START +*M DSS
+START ..M START +*M DSS
+START .+M START +*R RRS
+START .@R START +** RRS
+START ..R START +*U USS
+START ..U START +*U USS
+START .+U START +*L RRS
+START __R START  **A LLS
+START ++A START **B SDS 
+START ++B START **C LLS
+START ..C START ++D LSS
+START ++D START *** DDS 
+START .+D START +** DDS
+START .@D START +** DDS
+START ..D START +*E RSS
+START ..E START +*F RSS
+START .+F START +*F DDS
+START .@F START +** DDS
+START ..F START +.C LSS
+START __D STOP ___ SSS
+
+/*********************************/
+/*             Part 3            */
+/*********************************/
+
+HEADS AAA
+
+START ... START *** SDU
+START .._ START +*L RRS
+START .@L START +** RRS
+START ..L START +*M DSS
+START ..M START +*M DSS
+START .+M START +*R RRS
+START .@R START +** RRS
+START ..R START +*U USS
+START ..U START +*U USS
+START .+U START +*L RRS
+START __R START  **A LLS
+START ++A START **B SDS 
+START ++B START **C LLS
+START ..C START ++D LSS
+START ++D START *** DDS 
+START .+D START +** DDS
+START .@D START +** DDS
+START ..D START +*E RSS
+START ..E START +*F RSS
+START .+F START +*F DDS
+START .@F START +** DDS
+START ..F START +.C LSS
+START __D START **G UUS
+
+START ++G START **G SUS
+START +@G START .*H SLS
+START .@H START +** LLS
+START ..H START +*I USS
+START ..I START +*I USS
+START ++I START **J LLS
+START .+I START +*J LLS
+START .@J START +*J LLS 
+START ..J START +*K DSS
+START ..K START +** DSS
+START .+K START +*H LLS
+
+START __J START **O RRS
+START ++O START **X RRS
+START .@X START +*X RUS
+START ++X START **P UUS
+START .+X START +*P UUS
+START .@P START +@P UUS
+START ..P START +** LSS
+START +.P START +** LSS
+START .+P START +*Q UUS
+START .@Q START +** UUS
+START ..Q START +** RSS
+START .+Q START +*P UUS
+START ++Q STOP ++_ SSS
+

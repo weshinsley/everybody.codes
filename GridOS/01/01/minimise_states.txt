@@ -1,0 +1,73 @@
+/*********************************/
+/*             Part 1            */
+/*********************************/
+
+HEADS AAAB
+
+START ***A START **** USDD
+START ***B START **** USDD
+START ***C START **** USDD
+START ____ STOP **** SSSR
+START _A__ START *_** RRRR
+START _B__ START *P** RRRR
+START _C__ START PPP* RRRR
+
+
+/*********************************/
+/*             Part 2            */
+/*********************************/
+
+HEADS AAAAAB
+
+START *****A START ****** UUSDDR
+START *****B START ****** UUSDDR
+START *****C START ****** UUSDDR
+START *****D START ****** UUSDDR
+START *****_ START *****1 USSSDS
+
+START __1__1 STOP *****_ SSSSSS
+START __A__1 START **_*** RRRRRS
+START __B__1 START **P*** RRRRRS
+START __C__1 START *PPP** RRRRRS
+START __D__1 START PPPPP* RRRRRS
+
+
+/*********************************/
+/*             Part 3            */
+/*********************************/
+
+HEADS AB
+
+START *A START ** SR
+START *B START ** SR
+START *C START ** SR
+START *D START ** SR
+
+START A_ START  _L DS
+START B_ START  PL DS
+START C_ START  Q2 US
+START D_ START  Q4 US
+START __ STOP ** SS
+
+START _4 START P3 US
+START _3 START P2 US
+START _2 START P1 US
+START _1 START PY DS
+START PY START *Y DS
+START QY START PL DS 
+
+START AL START QO DS
+START BL START QP DS
+START CL START QR DS
+START DL START QT DS
+START _L START *Z US
+
+START _T START PS DS
+START _S START PR DS
+START _R START PQ DS
+START _Q START PP DS
+START _P START PO DS
+START _O START PU US
+START PU START ** US
+START QU START PZ US 
+START *Z START *_ RS
