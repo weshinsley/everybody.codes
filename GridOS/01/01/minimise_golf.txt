@@ -1,0 +1,40 @@
+/*********************************/
+/*             Part 1            */
+/*********************************/
+
+HEADS AAA
+
+START !!! G *** USD
+GO _A_ GO ___ RRR
+GO _B_ GO _P_ RRR
+GO _C_ GO PPP RRR
+GO ___  STOP ___ SSS
+
+/*********************************/
+/*             Part 2            */
+/*********************************/
+
+HEADS AAA
+
+START !!! G *** USD
+GO _A_ GO ___ RRR
+GO _B_ GO _P_ RRR
+GO _C_ GO PPP RRR
+GO _D_ GO PCP RSR
+GO ___  STOP ___ SSS
+
+/*********************************/
+/*             Part 3            */
+/*********************************/
+
+HEADS AAAAB
+
+START !!/!!/! START **/**/* SD/UL/R
+START !!/__/_ START **/PP/L DD/UL/S
+START A_/__/L START _*/**/_ UU/SS/S
+START D_/__/* START C*/PP/* SS/UL/S
+START C_/__/* START B*/PP/* SS/UL/S
+START B_/__/* START A*/P*/* SS/US/S
+START A_/__/_ START _*/**/* RR/SS/S
+START __/__/_ STOP **/**/* SS/SS/S
+

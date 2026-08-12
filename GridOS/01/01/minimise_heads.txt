@@ -5,29 +5,14 @@
 HEADS A
 
 START * GO * S
-
 GO A GO _ R
 GO B GO P R
-
-GO C C1 P U
-C1 * C2 P U
-C2 * C3 P D
-C3 * C4 * D
-C4 * GO * R
+GO C C1 X U
 GO _ STOP _ S
 
-// Minimise states
-
-HEADS AAAB
-
-START ***A START **** USDD
-START ***B START **** USDD
-START ***C START **** USDD
-START ____ STOP **** SSSR
-START _A__ START *_** RRRR
-START _B__ START *P** RRRR
-START _C__ START PPP* RRRR
-
+C1 _ C2 _ U
+C2 _ C2 P D
+C2 X GO P R
 
 /*********************************/
 /*             Part 2            */

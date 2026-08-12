@@ -1,0 +1,20 @@
+/*********************************/
+/*             Part 1            */
+/*********************************/
+
+HEADS AAABBB
+
+START !!!!!! GO ****** USDUSD
+GO _A__A_ GO ______ RRRLLL
+GO _A__B_ GO ____P_ RRRLLL
+GO _A__C_ GO ___PPP RRRLLL
+GO _B__A_ GO _P____ RRRLLL
+GO _B__B_ GO _P__P_ RRRLLL
+GO _B__C_ GO _P_PPP RRRLLL
+GO _C__A_ GO PPP___ RRRLLL
+GO _C__B_ GO PPP_P_ RRRLLL
+GO _C__C_ GO PPPPPP RRRLLL
+GO *P**P* STOP ****** SSSSSS
+GO *_**_* STOP ****** SSSSSS
+GO *P**_* STOP ****** SSSSSS
+GO *_**P* STOP ****** SSSSSS

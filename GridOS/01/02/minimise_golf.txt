@@ -1,0 +1,44 @@
+/*********************************/
+/*             Part 1            */
+/*********************************/
+
+HEADS A/AA/AA
+START !/!!/!! START */**/** S/US/DS
+START A/_*/_* START _/@*/*_ R/UU/SS
+START B/_*/_* START _/*_/@* R/SS/DD
+START _/_*/_* STOP _/__/__ S/SS/SS 
+
+/*********************************/
+/*             Part 2            */
+/*********************************/
+
+HEADS AA/AA/AA
+START !!/!!/!! START **/**/** SL/US/LS
+START A*/_*/_* START _*/@*/*_ RR/UU/SS
+START B*/_*/_* START _*/*_/@* RR/SS/LL
+START __/_*/_* REW __/__/__ DD/SS/SS 
+REW __/**/** STOP __/__/__ SS/SS/SS
+REW *!/**/** REW **/**/** LL/SS/SS
+REW !_/**/** START **/**/** SS/SS/SS
+
+/*********************************/
+/*             Part 3            */
+/*********************************/
+
+// Five pairs.
+// First pair: scan horizotally
+// Second pair: write a @ for A and B
+// Third pair:  remove previous @ for B and A in next row
+// Fourth pair:  write A/remove B with horizontal scan
+// Fifth pair: write B/remove A with horizontal scan
+
+HEADS AA/AD/BC/AA/DD
+START !!/!!/!!/!!/!! RIGHT **/**/**/**/** LS/UD/UD/RS/RS
+RIGHT *!/**/**/**/** RIGHT **/**/**/**/** RR/SS/SS/UU/DD
+RIGHT !_/**/**/**/** LEFT  **/**/**/**/** SS/SS/RR/UU/DD
+LEFT  A*/**/**/**/** LEFT  __/*_/@_/@*/__ LL/RR/RR/RR/RR
+LEFT  B*/**/**/**/** LEFT  __/_*/_@/__/@* LL/RR/RR/RR/RR
+LEFT  __/**/**/**/** RIGHT **/**/**/__/__ DD/SS/LL/UU/DD
+RIGHT __/!_/**/**/** RIGHT __/__/__/**/** SS/RR/SS/SS/SS
+RIGHT __/_!/**/**/** RIGHT __/__/__/**/** SS/RR/SS/SS/SS
+RIGHT __/__/__/**/** STOP  **/**/**/**/** SS/SS/SS/SS/SS

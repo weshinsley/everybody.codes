@@ -1,0 +1,47 @@
+/*********************************/
+/*             Part 1            */
+/*********************************/
+
+HEADS BBB
+START ### INIT ### SRR
+INIT ***  GO   *** SSR
+GO ___ STOP ___ SSS
+GO #=* GO _#* UUU
+GO #|_ GO _#| UUU
+
+
+/*********************************/
+/*             Part 2            */
+/*********************************/
+
+HEADS AAA 
+START ### GO ### URR
+GO    _== GO _== SSD
+GO    _*_ GO _T_ SSU
+GO    _TT GO *== SRR
+GO    _T= GO *** SSU
+GO    _!| GO R|| SRR
+GO    R!_ GO R__ SRR
+GO    R__ GO R__ SLL
+GO    R|| GO _** SDS
+GO    __| STOP _** SSS
+
+/*********************************/
+/*             Part 3            */
+/*********************************/
+
+HEADS AA/AA/A
+START !!/*!/* START **/**/* SD/SD/S  // Normal down
+START !_/*_/* GOUP  **/**/* SU/RR/S  // Hit bottom
+GOUP  *!/**/* GOUP  **/**/* SU/SU/S  // Return up
+GOUP  *_/**/* START **/**/* SD/SS/S  // Hit top/turn
+START ##/*_/! START *>/**/* SD/SD/L  // Mark shortest/phase 2
+START *>/*_/* START **/**/* SD/SD/S  // Skip shortest revisit
+START *#/*_/_ BASH  **/**/* SS/LL/S  // 1 Left - prepare to bash
+
+BASH >*/**/_ BASH #*/**/* DS/DS/S  // Don't bash shortest
+BASH #*/!*/_ BASH **/H*/E SS/RS/S  // Start erasing
+BASH #*/!*/E BASH **/_*/* SS/RS/S  // Continue erasing
+BASH #*/_*/* BASH **/**/F SS/LS/S  // Left after erasing
+BASH #*/H*/F BASH **/|*/_ DS/DS/S  // Down to next.
+BASH _*/**/* STOP **/**/* SS/SS/S  // Done, off bottom

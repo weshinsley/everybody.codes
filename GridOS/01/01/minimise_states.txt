@@ -2,15 +2,13 @@
 /*             Part 1            */
 /*********************************/
 
-HEADS AAAB
+HEADS AAA
 
-START ***A START **** USDD
-START ***B START **** USDD
-START ***C START **** USDD
-START ____ STOP **** SSSR
-START _A__ START *_** RRRR
-START _B__ START *P** RRRR
-START _C__ START PPP* RRRR
+START !!! START *** USD
+START ___ STOP *** SSS
+START _A_ START *_* RRR
+START _B_ START *P* RRR
+START _C_ START PPP RRR
 
 
 /*********************************/

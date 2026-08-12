@@ -1,0 +1,40 @@
+/*********************************/
+/*             Part 1            */
+/*********************************/
+
+HEADS A/AAA
+START !/!!! START */*** S/DDD
+START !/___ GO */___ S/LSR
+GO    #/*** GO #/___ R/RRR
+GO    =/*** GO ~/**~ R/RRR
+GO    _/___ STOP _/___ S/SSS
+
+/*********************************/
+/*             Part 2            */
+/*********************************/
+
+HEADS A/AAA/AAAAA
+START !/!!!/!!!!! START */***/***** S/DDD/DDDDD
+START !/___/_____ STAR2 */___/_____ S/LSR/DDDDD
+STAR2 !/___/_____ STAR3 */___/_____ S/SSS/LLSRR
+STAR3 !/___/_____ GO    */___/_____ S/SSS/LSSSR
+GO    #/***/***** GO    #/___/_____ R/RRR/RRRRR
+GO    =/***/***** GO    ~/**~/****~ R/RRR/RRRRR
+GO    _/***/***** STOP  _/***/***** S/SSS/SSSSS
+
+/*********************************/
+/*             Part 3            */
+/*********************************/
+
+HEADS AAA
+
+START ### GO ### LSR
+GO    **# GO **# RRR
+GO    !#= GO *#~ RRR
+GO    _*= GO _*~ RRR
+GO    #~= GO #~~ RRR
+GO    ~~= GO ~~~ DDD
+GO    *__ GO *=_ LLL
+GO    *~_ GO *** UUU
+GO    ~~~ GO ~~~ RRR
+GO    *#_ STOP *** SSS
