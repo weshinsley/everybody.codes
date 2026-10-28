@@ -6,8 +6,10 @@ rl <- function(x) {
 
 # Read a list of integers
 
-ri <- function(x) {
-  as.integer(rl(x))
+ri <- function(x, sep = NULL) {
+  d <- rl(x)
+  if (!is.null(sep)) d <- strsplit(d, sep)[[1]]
+  as.integer(d)
 }
 
 # Read a matrix of characters
