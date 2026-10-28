@@ -12,12 +12,14 @@ of the test text, although I did often use the tests to get my answers working.
 
 * [2024 - The Kingdom of Algorithmia](https://everybody.codes/event/2024/quests)   in [R](2024/R)
 * [2025 - The Song of Ducks and Dragons](https://everybody.codes/event/2025/quests) in [R](2025/R)
+* [2026 - Lord of the Wings](https://everybody.codes/event/2026/quests) Coming in November!
 
 ## The Stories
 
 * [1 - Echoes of Enigmatus](https://everybody.codes/story/1/quests)   in [R](Story_01/R)
 * [2 - The Entertainment Hub](https://everybody.codes/story/2/quests) in [R](Story_02/R)
 * [3 - Melody Made of Code](https://everybody.codes/story/3/quests) in [R](Story_03/R)
+* [4 - The Digital Atelier](https://everybody.codes/story/4/quests) in [R](Story_04/R)
 
 ## GridOS
 
