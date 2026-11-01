@@ -12,7 +12,7 @@ of the test text, although I did often use the tests to get my answers working.
 
 * [2024 - The Kingdom of Algorithmia](https://everybody.codes/event/2024/quests)   in [R](2024/R)
 * [2025 - The Song of Ducks and Dragons](https://everybody.codes/event/2025/quests) in [R](2025/R)
-* [2026 - Lord of the Wings](https://everybody.codes/event/2026/quests) Coming in November!
+* [2026 - Lord of the Wings](https://everybody.codes/event/2026/quests) in [R](2026/R)
 
 ## The Stories
 
