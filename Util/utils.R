@@ -85,3 +85,23 @@ powmod <- function(a, b, m) {
   }
   result
 }
+
+pg <- function(d) {
+  for (j in seq_len(nrow(d))) {
+    x <- paste0(d[j,], collapse = "")
+    cat(x)
+    cat("\n")
+  }
+}
+
+pig <- function(d, w, h, from = 0:4, to = c(".", ",", "#", "=", "@")) {
+  d <- as.character(d)
+  for (i in seq_along(from)) d[d == from[i]] <- to[i]
+  i <- 1
+  for (j in 1:h) {
+    x <- paste0(d[i:(i + w - 1)], collapse = "")
+    cat(x)
+    cat("\n")
+    i <- i + w
+  }
+}
